@@ -12,6 +12,24 @@ The goal of this project is to develop a predictive model that can determine the
 ## Data Source
 The data for this project is sourced from the NBA API, which provides access to a comprehensive dataset regarding games, player statistics, and more.
 
+## Project Structure
+```
+nba-win-prediction-mini-project/
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── data/
+│   └── .gitkeep
+├── notebooks/
+│   └── nba_win_prediction.ipynb
+├── src/
+│   ├── data_collection.py
+│   ├── preprocessing.py
+│   └── model.py
+└── tests/
+    └── test_placeholder.py
+```
+
 ## Setup Instructions
 To get started with this project, follow these steps:
 1. Clone this repository: `git clone https://github.com/JakeRoll04/nba-win-prediction-mini-project.git`
