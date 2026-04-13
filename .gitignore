@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Environment variable files
+.env
+
+# macOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python egg information
+*.egg-info/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+
+# pyenv
+.python-version
+
+# PEP 508 (meta) requirements
+*.whl
+
+# pytest cache
+.pytest_cache/
