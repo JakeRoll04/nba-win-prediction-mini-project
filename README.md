@@ -49,3 +49,6 @@ The workflow of this project consists of several phases:
 
 ## AI Use Statement
 GitHub Copilot was used for assistance in writing portions of the code. However, all code has been thoroughly reviewed and validated by the user to ensure accuracy and functionality.
+
+## AI Reflection
+GitHub Copilot was helpful in generating starter code for the data collection function and structuring parts of the workflow, including API calls and dataframe formatting. However, I had to manually check the logic and outputs, especially when the initial approach for calculating opponent points resulted in an empty DataFrame. I revised the solution by simplifying the logic and using the PLUS_MINUS column instead of relying on a merge that did not work with the API output. This experience showed me that while AI can speed up development and provide a useful skeleton, it still requires careful validation and human judgment to ensure correctness.
